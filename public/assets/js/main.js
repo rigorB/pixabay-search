@@ -6,7 +6,6 @@ $(document).ready(function(){
 
         if($(this).val() !== ''){
 
-            
             var filter = $('input[name=exampleRadios]:checked').val();
             var search_val = $(this).val();
             // var URL = "https://pixabay.com/api/?key="+API_KEY+"&q="+encodeURIComponent(search_val);
