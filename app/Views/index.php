@@ -11,9 +11,9 @@
     <script src="<?= base_url();?>/public/assets/js/main.js"></script>
     <title>Pixabay Search</title>
   </head>
-  <body>
+  <body style="background-color: #EEEEEE;">
     
-    <div class="container">
+    <div class="container mt-5">
         <div class=" col-md-8 mx-auto">
             <h5>Filter Search: </h5>
             <div class="form-check">
@@ -34,11 +34,12 @@
             <input type="text" id="search_key" class="form-control" required name="search_pix" placeholder="Input Keyword">
         </div>
     </div> 
-    <div class="container-fluid mt-5">
-        <div class="row" id="searched_result">
+    <div class="container-fluid px-3">
+        <div class="row mt-3" id="searched_result">
             
         </div>
     </div>
+    
     
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

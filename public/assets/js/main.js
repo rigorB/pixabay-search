@@ -28,7 +28,7 @@ $(document).ready(function(){
                                 if(filter == 'image'){
 
                                     $('#searched_result').append(`
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 py-2">
                                             <img src="${hit.largeImageURL}" height="400" width="400">
                                         </div>
                                     `);
@@ -36,7 +36,7 @@ $(document).ready(function(){
                                 }else if(filter == 'video'){
 
                                     $('#searched_result').append(`
-                                        <div class="col-md-3">
+                                        <div class="col-md-3 py-2">
                                             <iframe width="400" height="400"
                                                 src="${hit.videos.small.url}">
                                             </iframe>
